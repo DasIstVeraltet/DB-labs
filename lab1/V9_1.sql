@@ -1,6 +1,6 @@
 
 /*
-Создание бд
+РЎРѕР·РґР°РЅРёРµ Р±Рґ
 */
 create database NewDatabase;
 go
@@ -10,7 +10,7 @@ go
 
 
 /*
-Создание схемы
+РЎРѕР·РґР°РЅРёРµ СЃС…РµРјС‹
 */
 create schema sales;
 go
@@ -20,14 +20,14 @@ go
 
 
 /*
-Создание таблиц
+РЎРѕР·РґР°РЅРёРµ С‚Р°Р±Р»РёС†
 */
 create table sales.Orders(OrderNum int null);
 go
 
 
 /*
-Создание бэкапа
+РЎРѕР·РґР°РЅРёРµ Р±СЌРєР°РїР°
 */
 backup database NewDatabase
 to disk = 'N:\\MOROZOV_ILYA.bak';
